@@ -25,10 +25,11 @@ Initially user needs to sign up or login.
 * if users decide to enroll to a group, they must provide the id of that group(displayed when they make the request)
 * if users want to join a group, all groups in which they are enrolled appear and they must provide the id of the preferred one.
 * When users join a group, all messages of that group appear and they can start replying.
-* Users can send private messages by typing @<username> <message>
+* Users can send private messages by typing @"username" "message"
 * Users can close the connection by typing exit***
 
 **Implementation details**
+
 When users want to join a group, the main server checks for the capacity of a virtual child server and automatically place them in
 a child server which is not full. The initial capacity of a virtual server is 2 users.
 
