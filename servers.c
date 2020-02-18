@@ -299,7 +299,7 @@ void *MainServer( void *ptr )
                                fprintf(stderr, "%s\n", mysql_error(con));
                                exit(1);
                            }
-                           if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                           if (mysql_real_connect(con, "localhost", "root", "pass",
                              "cdb", 0, NULL, 0) == NULL)
                            {
                                finish_with_error(con);
@@ -367,7 +367,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -467,7 +467,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -533,7 +533,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -557,7 +557,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -593,7 +593,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -628,7 +628,7 @@ void *MainServer( void *ptr )
                               fprintf(stderr, "%s\n", mysql_error(con));
                               exit(1);
                           }
-                          if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                          if (mysql_real_connect(con, "localhost", "root", "pass",
                             "cdb", 0, NULL, 0) == NULL)
                           {
                               finish_with_error(con);
@@ -663,7 +663,7 @@ void *MainServer( void *ptr )
                               fprintf(stderr, "%s\n", mysql_error(con));
                               exit(1);
                           }
-                          if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                          if (mysql_real_connect(con, "localhost", "root", "pass",
                             "cdb", 0, NULL, 0) == NULL)
                           {
                               finish_with_error(con);
@@ -699,7 +699,7 @@ void *MainServer( void *ptr )
                                fprintf(stderr, "%s\n", mysql_error(con));
                                exit(1);
                            }
-                           if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                           if (mysql_real_connect(con, "localhost", "root", "pass",
                              "cdb", 0, NULL, 0) == NULL)
                            {
                                finish_with_error(con);
@@ -733,7 +733,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -773,7 +773,7 @@ void *MainServer( void *ptr )
                                fprintf(stderr, "%s\n", mysql_error(con));
                                exit(1);
                            }
-                           if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                           if (mysql_real_connect(con, "localhost", "root", "pass",
                              "cdb", 0, NULL, 0) == NULL)
                            {
                                finish_with_error(con);
@@ -809,7 +809,7 @@ void *MainServer( void *ptr )
                               fprintf(stderr, "%s\n", mysql_error(con));
                               exit(1);
                           }
-                          if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                          if (mysql_real_connect(con, "localhost", "root", "pass",
                             "cdb", 0, NULL, 0) == NULL)
                           {
                               finish_with_error(con);
@@ -844,7 +844,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -872,7 +872,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -908,7 +908,7 @@ void *MainServer( void *ptr )
                               fprintf(stderr, "%s\n", mysql_error(con));
                               exit(1);
                           }
-                          if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                          if (mysql_real_connect(con, "localhost", "root", "pass",
                             "cdb", 0, NULL, 0) == NULL)
                           {
                               finish_with_error(con);
@@ -967,7 +967,7 @@ void *MainServer( void *ptr )
                              fprintf(stderr, "%s\n", mysql_error(con));
                              exit(1);
                          }
-                         if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                         if (mysql_real_connect(con, "localhost", "root", "pass",
                            "cdb", 0, NULL, 0) == NULL)
                          {
                              finish_with_error(con);
@@ -1227,7 +1227,7 @@ void *Secserver( void *ptr ){
                     fprintf(stderr, "%s\n", mysql_error(con));
                     exit(1);
                 }
-                if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                if (mysql_real_connect(con, "localhost", "root", "pass",
                   "cdb", 0, NULL, 0) == NULL)
                 {
                     finish_with_error(con);
@@ -1364,7 +1364,7 @@ void *Secserver( void *ptr ){
                           fprintf(stderr, "%s\n", mysql_error(con));
                           exit(1);
                       }
-                      if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                      if (mysql_real_connect(con, "localhost", "root", "pass",
                         "cdb", 0, NULL, 0) == NULL)
                       {
                           finish_with_error(con);
@@ -1483,7 +1483,7 @@ void *Secserver( void *ptr ){
                           fprintf(stderr, "%s\n", mysql_error(con));
                           exit(1);
                       }
-                      if (mysql_real_connect(con, "localhost", "root", "cChris6725*",
+                      if (mysql_real_connect(con, "localhost", "root", "pass",
                         "cdb", 0, NULL, 0) == NULL)
                       {
                           finish_with_error(con);
