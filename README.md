@@ -1,10 +1,12 @@
 # c-programming-chat-service
 compile servers.c---->
+```
 gcc servers.c -o servers  `mysql_config --cflags --libs` -lpthread
-
+```
 compile client.c----->
+```
 gcc -o client client.c -lpthread
-
+```
 start servers: ./servers
 start a client in different terminal: ./client
 
